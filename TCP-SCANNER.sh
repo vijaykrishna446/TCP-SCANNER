@@ -8,7 +8,9 @@ echo ........................
 echo " "
 if [ -z "$1" ]
 then
-         echo "./x.sh <IP> <PORT - PORT>"
+         echo "./TCP-SCANNER.sh <IP> <PORT - PORT>"
+         echo "./TCP-SCANNER.sh 192.168.43.103 1-1000"
+         echo .............................
          exit 1
 fi
 echo "starting TCP-SCANNER"
